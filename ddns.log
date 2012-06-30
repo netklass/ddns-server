@@ -1,0 +1,12 @@
+einfacher Aufruf (Juniper NS 5gt)
+
+---beginn
+
+GET /nic/update?system=dyndns&hostname=test.f3l.de&myip=192.168.1.1&wildcard=OFF&mx=mail.exchanger.ext&backmx=NO&offline=NO HTTP/1.0
+Accept: text/html;*.*;
+Host: 192.168.1.21
+Authorization: Basic YXNkaWwxOTkxOm1hcnNoYWxsMSE=
+User-Agent: test2
+
+
+---end
